@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#auth-layout {
+    display: flex;
+}
+
+.form-section {
+    width: 60%;
+    height: 100vh;
+}
+
+.image-section {    
+    width: 40%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signup {
+    padding-bottom: 20px;
+}
+
+.form-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-row .input-box {
+    width: 49%;
+    
+}
+
+.form-row .input-box input[type="text"] {
+    width: 100%;
+    height: 40px;
+}
+
+.radio-btn {
+    margin-top: 15px;
+}
+
+.about input{
+    width: 100%;
+    height: 40px;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+}
+
+.submit-btn button{
+    background-color:#3E53C3;
+    color: #fff;
+    width: 222px;
+    height: 40px;
+    border: 1px solid #086DB8;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+/*.select-drp {
+    
+}*/
+
+.select-drp select {
+    width: 100%;
+    height: 44px;
+}
